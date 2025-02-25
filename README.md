@@ -1,6 +1,3 @@
-Here’s a sample `README.md` file for your project:
-
-```markdown
 # Marimo Notebook Exploration
 
 This project demonstrates the features and capabilities of **Marimo Notebook**, a reactive Python notebook that simplifies interactive programming. The notebook showcases how Marimo can be used to create dynamic applications, perform exploratory data analysis (EDA), and host interactive notebooks on the web.
@@ -12,7 +9,7 @@ This project demonstrates the features and capabilities of **Marimo Notebook**, 
 1. **Reactive Programming**:
    - Marimo automatically updates outputs when UI elements like sliders or dropdowns are modified.
    - Example:
-     ```
+     ```python
      slider = mo.ui.slider(1, 22)
      mo.md(f"Slider value: {slider.value}")
      ```
@@ -26,7 +23,7 @@ This project demonstrates the features and capabilities of **Marimo Notebook**, 
 4. **Interactive Dashboards for DataFrames**:
    - A single line of code generates a detailed dashboard for exploratory data analysis.
    - Example:
-     ```
+     ```python
      df = pd.read_csv("cars.csv")
      ```
 
@@ -56,11 +53,11 @@ This project demonstrates the features and capabilities of **Marimo Notebook**, 
 
 1. Clone this repository.
 2. Install dependencies by running:
-   ```
+   ```bash
    pip install marimo pandas numpy
    ```
 3. Launch the notebook using:
-   ```
+   ```bash
    marimo edit notebook.py
    ```
 4. Follow the steps in the notebook to explore Marimo's features.
@@ -87,9 +84,3 @@ This project demonstrates the features and capabilities of **Marimo Notebook**, 
 ### Screenshot of Hosted Notebook
 
 ![Hosted Notebook](18.jpg)
-```
-
-This `README.md` file provides an overview of your project, highlights key features of Marimo Notebook, and includes instructions for running the project along with useful resources. Let me know if you’d like further adjustments!
-
-Citations:
-[1] https://pplx-res.cloudinary.com/image/upload/v1740487527/user_uploads/GNoQNwvHMxDYcPb/18.jpg
