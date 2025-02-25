@@ -1,0 +1,90 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Open Sans', sans-serif; /* Clean and readable font */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background for minimalism */
+    color: #333; /* Dark gray text for readability */
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    font-family: 'Montserrat', sans-serif; /* Elegant font for headings */
+    font-size: 2.5rem;
+    color: #222; /* Slightly darker for emphasis */
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #444; /* Subtle contrast for subheadings */
+}
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 15px;
+}
+
+/* Code Block Styling */
+pre, code {
+    font-family: 'Courier New', monospace; /* Monospaced font for code */
+    background-color: #eaeaea; /* Light gray background for contrast */
+    padding: 10px;
+    border-radius: 5px;
+    display: block;
+    overflow-x: auto;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Rounded corners for a modern look */
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ol, ul {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Link Styling */
+a {
+    color: #007BFF; /* Blue links for visibility */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    body {
+        max-width: 800px; /* Centered content on larger screens */
+        margin: auto;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 3rem; /* Larger heading on bigger screens */
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}

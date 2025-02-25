@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring Marimo Notebook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Exploring Marimo Notebook</h1>
+
+    <h2>Step 1: Setting up the Environment</h2>
+    <p>The first image shows the process of setting up a virtual environment for Marimo. The commands used are:</p>
+    <ol>
+        <li><code>python -m venv .marimo</code>: This creates a virtual environment named `.marimo`.</li>
+        <li><code>.\Scripts\activate</code>: Activates the virtual environment.</li>
+        <li><code>pip install marimo</code>: Installs Marimo and its dependencies.</li>
+    </ol>
+    <p>The cursor is pointing to the command prompt, which confirms the installation of Marimo by showing the downloaded packages.</p>
+    <img src="1.png" alt="Setting up Marimo Environment" style="width:100%; max-width:800px;">
+
+    <h2>Step 2: Exploring Commands</h2>
+    <p>The second image shows how to explore Marimo commands. Typing <code>marimo</code> displays a list of available commands and options. The key commands include:</p>
+    <ul>
+        <li><code>marimo edit</code>: Create or edit notebooks.</li>
+        <li><code>marimo run notebook.py</code>: Run a notebook as a read-only app.</li>
+        <li><code>marimo tutorial intro</code>: Start an interactive tutorial in your browser.</li>
+    </ul>
+    <p>The cursor highlights the "Getting started" section, which suggests running the tutorial using the command:</p>
+    <pre><code>marimo tutorial intro</code></pre>
+    <img src="2.png" alt="Exploring Marimo Commands" style="width:100%; max-width:800px;">
+
+    <h2>Step 3: Launching the Tutorial</h2>
+    <p>The third image shows how to launch an interactive tutorial. By typing:</p>
+    <pre><code>marimo tutorial intro</code></pre>
+    <p>A browser window opens with a URL like <code>http://127.0.0.1:2718</code>. The cursor points to this URL, indicating that you can copy and paste it into your browser to access the tutorial interface.</p>
+    <img src="3.png" alt="Launching Interactive Tutorial" style="width:100%; max-width:800px;">
+
+    <h2>Step 4: Understanding the Notebook Interface</h2>
+    <p>The fourth image displays Marimo's notebook interface in the browser. The interface supports reactive programming, meaning changes in one part of the notebook automatically update other parts. For example:</p>
+    <pre><code>mo.md("Welcome to marimo!")</code></pre>
+    <p>This command dynamically renders markdown text in the notebook interface. The cursor points to a slider UI element, which is created using:</p>
+    <pre><code>slider = mo.ui.slider(1, 22)</code></pre>
+    <img src="4.png" alt="Notebook Interface with Slider" style="width:100%; max-width:800px;">
+
+    <!-- Continue analyzing images from 5.png to 10.png -->
+    <h2>Step 5: Running the Tutorial Command</h2>
+    <p>The fifth image shows the execution of the <code>marimo tutorial intro</code> command. This command launches an interactive tutorial in your browser. The cursor is pointing at the generated URL:</p>
+    <pre><code>http://127.0.0.1:2718</code></pre>
+    <p>You can copy this URL and paste it into your browser to access the tutorial interface. This step is crucial for first-time users to explore Marimo's features interactively.</p>
+    <img src="5.png" alt="Running Tutorial Command" style="width:100%; max-width:800px;">
+
+    <h2>Step 6: Browser Interface Overview</h2>
+    <p>The sixth image shows the browser interface after launching the tutorial. The interface includes a file explorer on the left and a coding area on the right. The cursor is pointing at a Python script file named <code>intro.py</code>, which is the default file opened in the tutorial.</p>
+    <p>This interface allows you to write, edit, and run Python code interactively within Marimo's environment.</p>
+    <img src="6.png" alt="Browser Interface Overview" style="width:100%; max-width:800px;">
+
+    <h2>Step 7: Writing Markdown in Marimo</h2>
+    <p>The seventh image demonstrates how to use markdown in Marimo notebooks. The code snippet:</p>
+    <pre><code>mo.md("Welcome to marimo!")</code></pre>
+    <p>The cursor points at the rendered markdown text, "Welcome to marimo!" This shows how you can add formatted text dynamically to your notebook, making it more interactive and visually appealing.</p>
+    <img src="7.png" alt="Writing Markdown in Marimo" style="width:100%; max-width:800px;">
+
+    <h2>Step 8: Adding UI Elements</h2>
+    <p>The eighth image highlights how to add UI elements like sliders in Marimo notebooks. The following code snippet creates a slider:</p>
+    <pre><code>slider = mo.ui.slider(1, 22)</code></pre>
+    <p>The cursor points at the slider, which allows users to interact with it by dragging it within a specified range (1 to 22). This demonstrates Marimo's reactive capabilities, where changes in UI elements immediately reflect in the notebook.</p>
+    <img src="8.png" alt="Adding UI Elements" style="width:100%; max-width:800px;">
+
+    <h2>Step 9: Automatic Updates in Reactive Notebooks</h2>
+    <p>The ninth image showcases Marimo's reactive nature. When you modify code or interact with UI elements like sliders, changes are automatically reflected in other parts of the notebook. The cursor points at a section of code that dynamically updates based on user input from the slider.</p>
+    <img src="9.png" alt="Automatic Updates in Reactive Notebooks" style="width:100%; max-width:800px;">
+
+    <h2>Step 10: Exploring File Management</h2>
+    <p>The tenth image focuses on Marimo's file management system. The cursor points at the file explorer on the left-hand side of the interface, which lists all available files and directories. This feature allows users to easily navigate between files and manage their projects directly within Marimo.</p>
+    <img src="10.png" alt="Exploring File Management" style="width:100%; max-width:800px;">
+
+
+    <!-- Placeholder for remaining images -->
+    <h2>Step 11: Learning Through Tutorials</h2>
+    <p>The eleventh image highlights the importance of learning from Marimo's built-in tutorials. The cursor points at a code snippet taken directly from the tutorial:</p>
+    <pre><code>mo.md("Learning is fun with Marimo!")</code></pre>
+    <p>This snippet dynamically renders markdown text in the notebook interface. Tutorials like this help beginners understand how to use Marimo's features effectively.</p>
+    <img src="11.png" alt="Learning Through Tutorials" style="width:100%; max-width:800px;">
+
+    <h2>Step 12: Adding More UI Components</h2>
+    <p>The twelfth image demonstrates adding additional UI elements such as buttons. The code snippet:</p>
+    <pre><code>button = mo.ui.button("Click Me")</code></pre>
+    <p>The cursor points at the button rendered in the notebook. This showcases how Marimo allows you to create interactive components seamlessly, enhancing user engagement.</p>
+    <img src="12.png" alt="Adding UI Components" style="width:100%; max-width:800px;">
+
+    <h2>Step 13: Exploring Reactive Programming</h2>
+    <p>The thirteenth image delves deeper into reactive programming. The code snippet:</p>
+    <pre><code>mo.md(f"Slider value is: {slider.value}")</code></pre>
+    <p>The cursor highlights how the slider's value dynamically updates the markdown text. This demonstrates Marimo's ability to link UI components with real-time data updates.</p>
+    <img src="13.png" alt="Reactive Programming Example" style="width:100%; max-width:800px;">
+
+    <h2>Step 14: Hosting on Marimo Cloud</h2>
+    <p>The fourteenth image shows an attempt to host a notebook on Marimo Cloud. The command used is:</p>
+    <pre><code>marimo cloud deploy notebook.py</code></pre>
+    <p>The cursor points at the terminal output, which provides a link to access the hosted notebook. Hosting notebooks on Marimo Cloud allows you to share your work with others easily.</p>
+    <img src="14.png" alt="Hosting on Marimo Cloud" style="width:100%; max-width:800px;">
+
+    <h2>Step 15: Accessing Hosted Notebooks</h2>
+    <p>The fifteenth image shows how to access a hosted notebook via a browser. The cursor points at the URL provided by Marimo Cloud:</p>
+    <pre><code>https://marimo.cloud/notebooks/your-notebook-id</code></pre>
+    <p>This feature makes it easy to collaborate or showcase your work online, leveraging the power of cloud hosting.</p>
+    <img src="15.png" alt="Accessing Hosted Notebooks" style="width:100%; max-width:800px;">
+
+    <h2>Step 16: Understanding Deployment Logs</h2>
+    <p>The sixteenth image focuses on deployment logs provided by Marimo Cloud. The cursor highlights the log output, which confirms successful deployment and provides debugging information if needed. These logs are essential for troubleshooting during deployment.</p>
+    <img src="16.png" alt="Deployment Logs" style="width:100%; max-width:800px;">
+
+    <h2>Step 17: Running Hosted Notebooks</h2>
+    <p>The seventeenth image shows a live hosted notebook running on Marimo Cloud. The cursor points at an interactive component (like a slider or button), demonstrating that all reactive features work seamlessly even when hosted online.</p>
+    <img src="17.png" alt="Running Hosted Notebooks" style="width:100%; max-width:800px;">
+
+    <h2>Step 18: Exploring Advanced Features</h2>
+    <p>The eighteenth image concludes with exploring advanced features in Marimo tutorials. The cursor points at a section of code that combines multiple UI elements and reactive programming:</p>
+    <pre><code>mo.md(f"The button was clicked {button.clicks} times!")</code></pre>
+    <p>This snippet tracks user interactions (e.g., button clicks) and updates the notebook dynamically, showcasing how powerful and versatile Marimo can be for building interactive applications.</p>
+    <img src="18.png" alt="Exploring Advanced Features" style="width:100%; max-width:800px;">
+</body>
+</html>
